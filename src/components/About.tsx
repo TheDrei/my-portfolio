@@ -9,7 +9,7 @@ const About: React.FC = () => {
         data-aos="fade-up"
       >
         {/* Profile Image */}
-        <div className="flex justify-start">
+        <div className="flex justify-center">
           <img
             src={img}
             alt="Profile"
