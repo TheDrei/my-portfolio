@@ -16,26 +16,6 @@ const Hero: React.FC = () => {
             Hi, I’m <span className="text-blue-500">Drei <span className="wave">👋</span></span>
           </h1>
 
-          {/* Wave animation */}
-          <style jsx>{`
-            .wave {
-              display: inline-block;
-              transform-origin: 70% 70%;
-              animation: wave 2s infinite;
-            }
-
-            @keyframes wave {
-              0% { transform: rotate(0deg); }
-              15% { transform: rotate(14deg); }
-              30% { transform: rotate(-8deg); }
-              40% { transform: rotate(14deg); }
-              50% { transform: rotate(-4deg); }
-              60% { transform: rotate(10deg); }
-              70% { transform: rotate(0deg); }
-              100% { transform: rotate(0deg); }
-            }
-          `}</style>
-
           <p className="text-xl md:text-2xl mb-4 text-gray-100">
             Full-Stack Web Developer crafting seamless web experiences.
           </p>
