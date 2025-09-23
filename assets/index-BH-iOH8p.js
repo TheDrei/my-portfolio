@@ -62,7 +62,7 @@ Error generating stack: `+l.message+`
         </ul>
         <br/>
         <p><strong>Tools:</strong> Linux, Apache, MySQL, PHP (Laravel), HTML, CSS, Bootstrap, JavaScript (jQuery), Highcharts, Git</p>
-      `,img:b3,link:""},{title:"PCAARRD Advanced Learning Management System (PALMS)",desc:`
+      `,img:b3,link:"https://ipmis.pcaarrd.dost.gov.ph/"},{title:"PCAARRD Advanced Learning Management System (PALMS)",desc:`
         <ul class="list-disc list-inside space-y-1">
           <li>Online platform built using Moodle for non-degree training and asynchronous courses.</li>
           <li>Integrated NDT Assessment, automated certificates, and chatbot to enhance user engagement.</li>
