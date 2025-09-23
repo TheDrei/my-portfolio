@@ -7,7 +7,7 @@ const Contact: React.FC = () => {
       id="contact"
       className="py-10 bg-gray-200 flex flex-col items-center text-center"
     >
-      <h2 className="text-3xl md:text-4xl font-bold mb-8 text-blue-900" data-aos="fade-down">
+      <h2 className="text-3xl md:text-4xl font-bold mb-8 text-black" data-aos="fade-down">
         Contact Me
       </h2>
 

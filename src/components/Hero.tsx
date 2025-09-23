@@ -10,18 +10,38 @@ const Hero: React.FC = () => {
       <div className="fixed inset-0 -z-10 bg-gradient-to-r from-[#001f3f] to-blue-900" />
 
       {/* Content container */}
-      <div className="relative min-h-screen flex items-center justify-center px-6">
+      <div className="relative h-200 flex items-center justify-center px-6">
         <div className="text-center max-w-3xl" data-aos="fade-up">
           <h1 className="text-8xl sm:text-7xl font-extrabold mb-6">
-            Hi, I’m <span className="text-yellow-300">Drei 👋</span>
+            Hi, I’m <span className="text-blue-500">Drei <span className="wave">👋</span></span>
           </h1>
+
+          {/* Wave animation */}
+          <style jsx>{`
+            .wave {
+              display: inline-block;
+              transform-origin: 70% 70%;
+              animation: wave 2s infinite;
+            }
+
+            @keyframes wave {
+              0% { transform: rotate(0deg); }
+              15% { transform: rotate(14deg); }
+              30% { transform: rotate(-8deg); }
+              40% { transform: rotate(14deg); }
+              50% { transform: rotate(-4deg); }
+              60% { transform: rotate(10deg); }
+              70% { transform: rotate(0deg); }
+              100% { transform: rotate(0deg); }
+            }
+          `}</style>
 
           <p className="text-xl md:text-2xl mb-4 text-gray-100">
             Full-Stack Web Developer crafting seamless web experiences.
           </p>
 
           <p className="text-gray-300 mb-8">
-          I love programming.
+            I love programming.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -38,7 +58,7 @@ const Hero: React.FC = () => {
               href={pdf}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-yellow-300 text-[#001f3f] font-semibold rounded-lg shadow-md transform transition-all duration-300 hover:bg-yellow-400 hover:scale-105 hover:shadow-xl"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md transform transition-all duration-300 hover:bg-gray-700 hover:scale-105 hover:shadow-xl"
               data-aos="zoom-in"
               data-aos-delay="300"
             >

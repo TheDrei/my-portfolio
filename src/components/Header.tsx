@@ -9,8 +9,8 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="fixed w-full top-0 z-50 bg-black/60 backdrop-blur shadow-sm">
-      <nav className="flex items-center justify-between py-4 px-6">
+    <header className="fixed w-full top-0 z-50 bg-black/40 backdrop-blur shadow-sm h-18">
+      <nav className="flex items-center justify-between py-3 px-8 md:px-16 lg:px-24">
         {/* Logo flush left */}
         <div className="text-[2.3rem] font-bold">
           <span className="text-blue-900">Dev</span>Drei

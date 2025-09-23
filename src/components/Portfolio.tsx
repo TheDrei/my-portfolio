@@ -141,7 +141,8 @@ const Portfolio: React.FC = () => {
       >
         Recent Projects
       </h2>
-      <div className="grid md:grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-3 gap-8 md:pl-10 md:pr-10">
+
         {projects.map((project, index) => (
         <div
             key={index}
